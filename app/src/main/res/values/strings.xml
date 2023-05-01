@@ -1,0 +1,15 @@
+<resources>
+    <string name="app_name">Kantin Del</string>
+    <string name="title_activity_main">MainActivity</string>
+    <string name="title_home">Beranda</string>
+    <string name="title_cart">Keranjang</string>
+    <string name="title_account">Akun</string>
+    <!-- TODO: Remove or change this placeholder text -->
+    <string name="hello_blank_fragment">Hello blank fragment</string>
+    <string name="_1_kilogram_x_rp_9_000">1 kilogram x Rp 9.000</string>
+    <string name="rp_9_000">Rp 9.000</string>
+    <string name="_3_hari_kerja">3 Hari kerja</string>
+    <string name="jne_reguler">JNE Reguler</string>
+    <string name="pilih_alamat_pengiriman">* Pilih alamat pengiriman</string>
+    <string name="pilih_metode_pengiriman">Pilih Metode Pengiriman</string>
+</resources>

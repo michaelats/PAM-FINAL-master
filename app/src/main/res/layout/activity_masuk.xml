@@ -1,0 +1,51 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".activity.LoginActivity">
+    <LinearLayout
+        android:orientation="vertical"
+        android:gravity="center"
+        android:layout_centerInParent="true"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content">
+        <TextView
+            android:textColor="@color/Pallete3"
+            android:textSize="24dp"
+            android:textStyle="bold"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="SELAMAT DATANG DI "/>
+        <TextView
+            android:textColor="@color/Pallete3"
+            android:textSize="28dp"
+            android:textStyle="bold"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="DELCANTEEN"/>
+
+        <ImageView
+            android:layout_marginTop="15dp"
+            android:layout_width="200dp"
+            android:layout_height="200dp"
+            android:src="@drawable/canteen" />
+
+        <Button
+            android:id="@+id/btn_prosesLogin"
+            android:background="@color/Pallete3"
+            android:layout_marginTop="15dp"
+            android:layout_width="150dp"
+            android:layout_height="35dp"
+            android:text="Masuk"/>
+        <Button
+            android:id="@+id/btn_prosesDaftar"
+            android:background="@drawable/bg_btn_login2"
+            android:layout_marginTop="15dp"
+            android:layout_width="150dp"
+            android:layout_height="35dp"
+            android:text="Daftar"/>
+
+    </LinearLayout>
+</RelativeLayout>
